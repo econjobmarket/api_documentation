@@ -15,4 +15,4 @@ get access tokens and request data.  In other words, you'll need to have a serve
 as you like.
 
 
-Now go on to use the page on [Access Tokens](access_tokens) to learn how to explore the api before you start.
+Now go on to use the page on [Access Tokens](Authentication-and-Access-Tokens.2.md) to learn how to explore the api before you start.
