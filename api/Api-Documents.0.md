@@ -11,12 +11,12 @@ Features of the new api include:
 
 If you are using the older api, pre July 2018, follow the Legacy Api link on the right menu.  
 
-- [Getting Started](Getting-Started|api|1)
-- [Using Oauth and access tokens](Authentication-and-Access-Tokens|api|2)
-- [Methods](methods)
-  1. [applications](Application-Method|api|3)
-  2. [applicants](Applicant-Method|api|4)
-  3. [Files](Files-Method|api|5)
-  4. [Letters](Recommendation-Letters|api|6)
-  5. [Interviews](Interviews|api|8)
-  6. [Document method](Document-Method|api|7)
+- [Getting Started](Getting-Started.1.md)
+- [Using Oauth and access tokens](Authentication-and-Access-Tokens.2.md)
+- Methods
+  1. [applications](Application-Method.3.md)
+  2. [applicants](Applicant-Method.4.md)
+  3. [Files](Files-Method.5.md)
+  4. [Letters](Recommendation-Letters.6.md)
+  6. [Document method](Document-Method.7.md)
+  5. [Interviews](Interviews.8.md)
