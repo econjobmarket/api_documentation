@@ -49,28 +49,34 @@ You represent and warrant that you (a) are not under the age of 18 (and if a res
 
 While using the Site or Services, you agree NOT to do any of the following without our prior written authorization:
 
-    Post any inaccurate, outdated, incomplete or misleading information.
-    Establish multiple accounts for yourself or another individual person or organization, for the purpose of misrepresenting your identity, collecting information from the Site that you are not entitled to receive, or otherwise violating this Terms of Use Agreement.
-    Access the Site using another user's log-in information and/or submit materials to the Site for another user, unless you are acting as this user's Proxy as designated by the Site.
-    Place any contact information within an advertisement that is different from contact information provided for your organization in the Site.
-    Resell or make available to any person not expressly licensed by EconJobMarket, whether via phone, fax, e-mail, mail or any other medium, any of the EconJobMarket Services or any related information obtained.
-    Share passwords, login information, or named user identification or otherwise allow multiple offices or users to access the EconJobMarket Services on a basis that is other than what was originally subscribed for. A named user is defined as one unique individual user with one unique password. An office is defined as a location where a named user routinely accesses or uses the EconJobMarket Services under express license from EconJobMarket.
-    Use any search engine, software, tool, agent or other device or mechanism, including without limitation browsers, spiders, robots, avatars or intelligent agents (other than those made available by EconJobMarket on the Site or other generally available third party web browsers, e.g., Mozilla Firefox or Microsoft Internet Explorer), to navigate or search the Site in order to retrieve information that you are not entitled to receive, to disrupt the normal functioning of the Site, to reproduce or circumvent the navigational structure or presentation of the Site or its contents, or to otherwise violate this Terms of Use Agreement.
-    Set inaccurate dates (opening and closing) for advertisements posted on the Site.
-    Engage in spamming, flooding, soliciting or mass marketing via e-mail, direct mail, telephone, or otherwise to EconJobMarket subscribers.
-    Express or imply that any statements you make are endorsed by us.
-    Impersonate any person or entity, including, without limitation, an EconJobMarket employee, an agent of EconJobMarket, a user of the Site and/or Services (including a Candidate, Reference, Recruiter, Proxy, placement specialist or an employer), or otherwise misrepresent your affiliation with any person or entity.
-    Restrict or inhibit any other user from using and enjoying the Site and Services, including, without limitation, by means of "hacking" or defacing any portion of the Site.
-    Post or transmit (a) any incomplete, false or inaccurate biographical information; (b) any content or information that is unlawful, fraudulent, threatening, abusive, libelous, defamatory, obscene or otherwise objectionable or harmful, or that infringes on our or any third party's intellectual property or other rights; (c) any information or software that contains a virus, worm, Trojan horse or other harmful or disruptive component; (d) any trade secret of any third party; or (e) any material, nonpublic information about companies without the authorization to do so.
-    Use the Site for any unlawful commercial, research or information-gathering purposes.
-    Utilize contact information gathered from the Site to communicate in an unsolicited way, outside the scope of EconJobMarket Services, with other users of the Site.
-    Use information collected by EconJobMarket in a way that is illegal in your legal jurisdiction.
-    Modify, adapt, sublicense, translate, sell, reverse engineer, decompile or disassemble any portion of the Site.
-    "Frame" or "mirror" any part of the Site.
-    Publish, make available publicly, or transmit to any unauthorized users any information retrieved from the Site.
-    Link to any page of or material on the Site other than the URL located at https://www.EconJobMarket.org/ for the purpose of circumventing features and/or information on the Site.
-    Print, copy, transmit or use in any other way any materials associated with a Candidate for purposes other than consideration of the Candidate for potential employment by your organization.
-    Submit any sensitive personal information, such as social security numbers and similar information.
+* Post any inaccurate, outdated, incomplete or misleading information.
+* Establish multiple accounts for yourself or another individual person or organization, for the purpose of misrepresenting your identity, collecting information from the Site that you are not entitled to receive, or otherwise violating this Terms of Use Agreement.
+* Access the Site using another user's log-in information and/or submit materials to the Site for another user, unless you are acting as this user's Proxy as designated by the Site.
+* Place any contact information within an advertisement that is different from contact information provided for your organization in the Site.
+* Resell or make available to any person not expressly licensed by EconJobMarket, whether via phone, fax, e-mail, mail or any other medium, any of the EconJobMarket Services or any related information obtained.
+* Share passwords, login information, or named user identification or otherwise allow multiple offices or users to access the EconJobMarket Services on a basis that is other than what was originally subscribed for. A named user is defined as one unique individual user with one unique password. An office is defined as a location where a named user routinely accesses or uses the EconJobMarket Services under express license from EconJobMarket.
+* Use any search engine, software, tool, agent or other device or mechanism, including without limitation browsers, spiders, robots, avatars or intelligent agents (other than those made available by EconJobMarket on the Site or other generally available third party web browsers, e.g., Mozilla Firefox or Microsoft Internet Explorer), to navigate or search the Site in order to retrieve information that you are not entitled to receive, to disrupt the normal functioning of the Site, to reproduce or circumvent the navigational structure or presentation of the Site or its contents, or to otherwise violate this 
+
+Terms of Use Agreement.
+
+* Set inaccurate dates (opening and closing) for advertisements posted on the Site.
+* Engage in spamming, flooding, soliciting or mass marketing via e-mail, direct mail, telephone, or otherwise to EconJobMarket subscribers.
+* Express or imply that any statements you make are endorsed by us.
+* Impersonate any person or entity, including, without limitation, an EconJobMarket employee, an agent of EconJobMarket, a user of the Site and/or Services (including a Candidate, Reference, Recruiter, Proxy, placement specialist or an employer), or otherwise misrepresent your affiliation with any person or entity.
+ * Restrict or inhibit any other user from using and enjoying the Site and Services, including, without limitation, by means of "hacking" or defacing any portion of the Site.
+ * Post or transmit (a) any incomplete, false or inaccurate biographical information; (b) any content or information that is unlawful, fraudulent, threatening, abusive, libelous, defamatory, obscene or otherwise objectionable or harmful, or that infringes on our or any third party's intellectual property or other rights; (c) any information or software that contains a virus, worm, Trojan horse or other harmful or disruptive component; (d) any trade secret of any third party; or (e) any material, nonpublic information about companies without the authorization to do so.
+* Use the Site for any unlawful commercial, research or information-gathering purposes.
+* Utilize contact information gathered from the Site to communicate in an unsolicited way, outside the scope of EconJobMarket 
+
+Services, with other users of the Site.
+    
+* Use information collected by EconJobMarket in a way that is illegal in your legal jurisdiction.
+* Modify, adapt, sublicense, translate, sell, reverse engineer, decompile or disassemble any portion of the Site.
+* "Frame" or "mirror" any part of the Site.
+* Publish, make available publicly, or transmit to any unauthorized users any information retrieved from the Site.
+* Link to any page of or material on the Site other than the URL located at https://www.EconJobMarket.org/ for the purpose of circumventing features and/or information on the Site.
+* Print, copy, transmit or use in any other way any materials associated with a Candidate for purposes other than consideration of the Candidate for potential employment by your organization.
+* Submit any sensitive personal information, such as social security numbers and similar information.
 
 This Agreement prohibits EconJobMarket users from transmitting information gathered through the Site to any unauthorized users or to the public. For instance, it is a violation of this Agreement for an organization to publish or make publicly available any information about Candidates (including, but not limited to, application materials and letters of recommendation). Any other unauthorized distribution of data obtained through EconJobMarket is also a violation of this Agreement. Distribution of information within your organization for the purpose of evaluating Candidates does not constitute a publication and is allowed under this Agreement.
 
