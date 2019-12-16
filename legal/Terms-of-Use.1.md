@@ -1,7 +1,9 @@
 
-Econ Job Market Inc. Terms of Use Agreement
+## Econ Job Market Inc. Terms of Use Agreement
+
 
 Updated in August 2015 and effective September 1, 2015.
+
 
 By using the EconJobMarket.org site you are entering into a legally binding agreement with Econ Job Market Incorporated.
 
