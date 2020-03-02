@@ -1,4 +1,4 @@
-Access to the api is available at [https://backend.econjobmarket.org](https://backend.econjobmarket.org).  If you wish to test the api and use it you will need to go there and login with econjobmarket.
+Access to the api is available at [https://backend.econjobmarket.org](https://backend.econjobmarket.org).  If you wish to test the api and use it you will need to go there and login with econjobmarket.  Once you have logged in, use the link that says "Ejm api Details for your Organization".  The details you need to use the api will appear unless you are at first login.  In that case click the "Get Started" button.  Your keys will be created, and you will need to enter the ipaddresses of the computers that will access the api.
 
 As of July, 2018, applicant data is delivered by a simpler api which is documented here.  The older api is described at [https://backend.econjobmarket.org/legacy](https://backend.econjobmarket.org/legacy).
 
