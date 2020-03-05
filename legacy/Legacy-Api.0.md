@@ -4,10 +4,10 @@ This page provides links to the documentation of the legacy api, which applies t
 It still works with the new database. However if you are just establishing a connection, it is recommended 
 that you use the updated methods in the [new api](../api/Api-Documents.0.md).
 
-1. [Soap-Http](soap_http)
-    * [Php Soap](php_soap)
+1. [Soap-Http](SOAP.1.md)
+    * [Php Soap](Php-Soap.2.md)
 
-2. [Rest/Http](rest_http)
+2. [Rest/Http](HTTP-REST.3.md)
 
 3. [Data Methods](data_objects)
     + [Data/GetData](getdata)
