@@ -22,4 +22,4 @@ Once you see your new backup file listed, you can download it by clicking on the
 The file contains all the applications for the position that you chose, all the answers to the custom questions, all the files and reference letters.
 
 
-This service only allows you to download all the applications associated with a postiion.  If you want copies of a selected and small set of applications, you can get this using the regular recruiter page at [econjobmarket.org](https://econjobmarket.org).
+This service only allows you to download all the applications associated with a position.  If you want copies of a selected and small set of applications, you can get this using the regular recruiter page at [econjobmarket.org](https://econjobmarket.org).
