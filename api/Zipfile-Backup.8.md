@@ -6,7 +6,7 @@ If you just want to backup your existing applications, you can do so using the w
 Here are the steps:
 
 1. Visit [https://backend.econjobmarket.org/ejm_setup/positions](https://backend.econjobmarket.org), then login using the button on the top left which says `Login with Econjobmarket`.
-1. Once you have logged in, go to the page [https://backend.econjobmarket.org/ejm_setup_positions](https://backend.econjobmarket.org/ejm_setup_positions) to see this list of your active positions and your existing list of backup files, if any.
+1. Once you have logged in, go to the page [https://backend.econjobmarket.org/ejm_setup/positions](https://backend.econjobmarket.org/ejm_setup/positions) to see this list of your active positions and your existing list of backup files, if any.
 1. Choose a position, then click the link  `Backup $n Applications`.  This will start the back up process in the background.  You'll may need to wait for some time for the backup to complete, so do something else for a minute then re-open the page [https://backend.econjobmarket.org/ejm_setup_positions](https://backend.econjobmarket.org/ejm_setup_positions).  You should now see a backup file.
  
 
