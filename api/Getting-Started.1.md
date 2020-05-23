@@ -1,4 +1,4 @@
-Choose the option on the front page that says Login with Econjobmarket.  Use your username (email) and password at econjobmarket, they will be checked at [econjobmarket.org](https://econjobmarket.org).  You must be a valid recruiter at econjobmarket to use this api.
+Choose the option on the front page of the website [https://backend.econjobmarket.org](https://backend.econjobmarket.org) that says `Login with Econjobmarket`.  Use your username (email) and password at econjobmarket (i.e., the one you use at [https://econjobmarket.org](https://econjobmarket.org) ), they will be checked at [econjobmarket.org](https://econjobmarket.org).  You must be a valid recruiter at econjobmarket to use this api.
 
 
 After login, use the link in the navigation section at the right of the page called 'EJM Api api details for your organization'.  Click on it.  On the next page, click the 'Get Started' button.
