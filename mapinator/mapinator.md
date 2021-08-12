@@ -4,7 +4,7 @@ In the first pandemic summer in 2020, the first version of the mapinator was wri
 
 The database was initially created by Kim Nguyen, who now works at the Reserve Bank of Australia.  In summer 2020, Amedeus, along with his colleague Felipe Grosso organized what they called a 'workathon' designed to enlarge the size of the database.  They convinced  handful of students in the honors program at the Vancouver School of Economics to volunteer their time to enlarge the database. Their wages were donated to a couple of charities, including The Sadie Foundation, Indspire, and Qmunity. 
 
-Following the success of that project, a group of students. led by Jin Wu, Soren Rajani, Alex Dong and James Yu organized a second workathon in 2021.  This time volunteers participated from a number of different departments at ubc.
+Following the success of that project, a group of students. led by Jin Wang, Soren Rajani, Alex Dong and James Yu organized a second workathon in 2021.  This time volunteers participated from a number of different departments at UBC.
 
 # Practical Appeal
 
@@ -14,7 +14,7 @@ One thing that makes the workathon attractive to students is that all the data t
 
 The database consists of outcome information that is manually collected on the internet.  University placement lists are used if they are available.  Manual search is used with names from [https://econjobmarket.org](https://econjobmarket.org), though the database itself does not provide any names. Unless there is a publicly available record on the internet that indicates a placement, applicants' names do not appear in the database at all.
 
-So far there is no data for applicants who do not register at econjobmarket.  Offhand comments by researchers who have worked with econjobmarket data suggest that somewhere between a half and three quarters of all phd graduates from American universities actually register on econjobmarket.
+So far there is no data for applicants who do not register at econjobmarket.  Offhand comments by researchers who have worked with econjobmarket data suggest that somewhere between a half and three quarters of all Ph.D. graduates from American universities actually register on econjobmarket.
 
 Applicants are more likely to register when they can also submit applications on econjobmarket.
 
@@ -23,7 +23,7 @@ The list of organizations who hire graduates comes from econjobmarket.
 The only metadata that is used is the applicants year of graduation, the name of the institution and organization that they graduated from, their gender (revealing gender is voluntary on econjobmarket), and their primary field.
 
 
-Each node in the graph is an organization, its location on the map and its rank according to Tilberg.  At this point the organizations rank on RePEc should also be attached.  Each edge corresponds to an applicant.
+Each node in the graph is an organization, its location on the map and its rank according to Tilburg.  At this point the organizations rank on RePEc should also be attached.  Each edge corresponds to an applicant.
 
 # Categories
 
