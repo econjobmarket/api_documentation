@@ -19,7 +19,8 @@ The estimate yields the following four groups (select an institution to view its
   function display(value)
   {
       if (value != "0") {
-        document.getElementById("mapinator").src = "https://sage.microeconomics.ca/institution/" + value;
+        document.getElementById("mapinator").src = "https://sage.microeconomics.ca/inst/" + value;
+        document.getElementById("maplink").href = "https://sage.microeconomics.ca/inst/" + value;
         document.getElementById("mapHide").style.display = "block";
       } else {
         document.getElementById("mapHide").style.display = "none";
@@ -429,7 +430,8 @@ The estimate yields the following four groups (select an institution to view its
 </form>
 
 <div id="mapHide" style="display: none">
-<iframe id = "mapinator" height="600" width="800" src="https://sage.microeconomics.ca/" title="mapinator"></iframe> 
+<a id = "maplink" href="https://sage.microeconomics.ca/">Click to open data in a new tab.</a> 
+<iframe id = "mapinator" height="600" width="900" src="https://sage.microeconomics.ca/" title="mapinator"></iframe> 
 </div>
 
 These types graduate job market applicants according to the following matrix:
