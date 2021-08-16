@@ -1,19 +1,29 @@
-# Estimation Summary
+Aside from the four hierarchical categories of institutions mentioned [in the mapinator description](https://support.econjobmarket.org/git_page/econjobmarket%2Bapi_documentation/mapinator/mapinator.md), there are four extra types used to represent graduates who do not get hired as assistant professors.
 
-### Author: James Yuming Yu, Vancouver School of Economics
+* Other Academic is any academic institution hiring sessional lecturers and other non-professor academic placements (excluding post-docs).
+* Government is any government institution e.g. central banks.
+* Private Sector is any private organization e.g. Amazon.
+* Teaching Universities is any institution that hires assistant professors but doesn't graduate any Ph.D.s.
 
-This estimation constructs a hierarchical classification of economics institutions
-based on placement outcomes of their Ph.D. graduates and hires.
+Each type in the network graduates job market applicants according to the following matrix:
+<pre>
+            From: Type 1 Type 2 Type 3 Type 4
+        To Type 1 568    109    23     10
+        To Type 2 586    258    87     21
+        To Type 3 762    681    350    58
+        To Type 4 136    197    94     88
+To Other Academic 306    273    170    87
+    To Government 358    274    117    23
+To Private Sector 460    225    89     11
+To Teaching Univs 434    587    435    152
 
-Institutions are grouped together based on having similar placement
-rates to other institutions.
+</pre>
 
-Much of the data comes from the 2020 and 2021 VSE Workathons, 3-day
-events where groups of volunteers worked 10 hours per day to manually
-record placement outcomes. The workathons expanded the global coverage
-of the data.
+To read this, take the column label and the row label of a specific cell. The number of graduates from the column type to the row type is then the value of the cell.
 
-The estimate yields the following four groups (select an institution to view its data):
+---
+
+The following drop-down lists give the composition of the four main hierarchical types. If you click on a specific drop-down, you can then see every institution that belongs to that type. If you then click on one such institution, you can view detailed parameters and info for that institution below.
 
 <script type="text/javascript">
   function display(value)
@@ -434,48 +444,4 @@ The estimate yields the following four groups (select an institution to view its
 <iframe id = "mapinator" height="600" width="900" src="https://sage.microeconomics.ca/" title="mapinator"></iframe> 
 </div>
 
-These types graduate job market applicants according to the following matrix:
-<pre>
-            From: Type 1 Type 2 Type 3 Type 4
-        To Type 1 568    109    23     10
-        To Type 2 586    258    87     21
-        To Type 3 762    681    350    58
-        To Type 4 136    197    94     88
-To Other Academic 306    273    170    87
-    To Government 358    274    117    23
-To Private Sector 460    225    89     11
-To Teaching Univs 434    587    435    152
-
-</pre>
-
-To read this, take the column label and the row label of a specific cell
-
-(e.g. Column for Type 2, Row for Type 1).
-
-Then "The sum of all graduates from Type 2 institutions that were hired
-as assistant professors anywhere in Type 1 institutions is 109". 109 is
-the (2, 1) column-row pair.
-
---------------------
-
-The placements for the four types are those of assistant professors.
-
-Other Academic is any academic institution hiring positions other
-than assistant professor (e.g. lecturer).
-
-Government is any government institution e.g. central banks.
-
-Private Sector is any private institution e.g. Amazon.
-
-Teaching Universities is any institution that hires assistant professors but doesn't graduate any Ph.D.s.
-
---------------------
-
-The types are ordered such that higher types place more
-often to lower types than lower types place to higher
-types.
-
-e.g. Take Type 2. Type 2 has 109 placements upward to type 1, but type 1 has 586 placements downward to type 2.
-
-109 < 586 so between type 1 and type 2, it is easier to be
-placed downward than upward.
+### James Yuming Yu, Vancouver School of Economics
