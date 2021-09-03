@@ -20,7 +20,7 @@ Applicants are more likely to register when they can also submit applications on
 
 The list of organizations who hire graduates comes from econjobmarket.
 
-The only metadata that is used is the applicants year of graduation, and the name of the institution and organization that they graduated from.
+The only metadata that is used is the applicants year of graduation, the name of the institution and organization that they graduated from, and their primary field.
 
 
 Each node in the graph is an organization, its location on the map and its rank according to Tilburg.  At this point the organizations rank on RePEc should also be attached.  Each edge corresponds to an applicant.
