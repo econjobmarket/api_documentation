@@ -8,7 +8,7 @@ Following the success of that project, a group of students. led by Jin Wang, Sor
 
 # Practical Appeal
 
-One thing that makes the workathon attractive to students is that all the data that is collected is made a available in a public database (mostly thhough the mapinator).  The database is a nice resource for economics students who are planning to go on to higher graduate studies in economics.  The mapinator will basically show them where they are likely to get a job when they graduate from different schools.  So the volunteers for the mapinator project know they are contributing to a public good.
+One thing that makes the workathon attractive to students is that all the data that is collected is made available in a public database (mostly through the mapinator).  The database is a nice resource for economics students who are planning to go on to higher graduate studies in economics.  The mapinator will basically show them where they are likely to get a job when they graduate from different schools.  So the volunteers for the mapinator project know they are contributing to a public good.
 
 # The Data
 
@@ -20,7 +20,7 @@ Applicants are more likely to register when they can also submit applications on
 
 The list of organizations who hire graduates comes from econjobmarket.
 
-The only metadata that is used is the applicants year of graduation, the name of the institution and organization that they graduated from, their gender (revealing gender is voluntary on econjobmarket), and their primary field.
+The only metadata that is used is the applicants year of graduation, and the name of the institution and organization that they graduated from.
 
 
 Each node in the graph is an organization, its location on the map and its rank according to Tilburg.  At this point the organizations rank on RePEc should also be attached.  Each edge corresponds to an applicant.
@@ -29,7 +29,7 @@ Each node in the graph is an organization, its location on the map and its rank 
 
 One research project that is based on this data attempts to assign categories or types to organizations based on their placements.  The project is described in more detail at [this document](sbm_project_description.md). 
 
-The types are identified using a simple directed search model that predicts placement patterns for each category of organization to each other category of organization.  The basic theory assumes that different organizations can graduate students who have the same value to all market participants. Organizations's whose students have the same value will exhibit similar placement patterns.
+The types are identified using a simple directed search model that predicts placement patterns for each category of organization to each other category of organization.  The basic theory assumes that different organizations can graduate students who have the same value to all market participants. Organizations whose students have the same value will exhibit similar placement patterns.
 
 Current estimates of the type assignment suggest there are four basic types of organizations.  First category organizations are research departments that graduate students who place predominantly in other category 1 and category 2 research organizations, though all organizations who produce graduates will place them in all the different categories.
 
