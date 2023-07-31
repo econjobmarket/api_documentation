@@ -48,7 +48,7 @@ This will produce a very big json object that looks like this when the correspon
         "filesize": 511628,
         "filetype": "application\/pdf",
         "path": null,
-        "type_id": null,
+        "type_id": 20,
         "filecontent": "JVBERi0xLjUNJeLjz9MNCjEgMCBvYmo8PC9QYWdl.....MxZmIxNDNlZTFjZjQ4ODVlM2Y4\nMTMyY2JlNWZlYT5dL1ByZXYgMzM3OSA+Pg0Kc3RhcnR4cmVmDQo1MDg3OTQNCiUlRU9GDQo=",
         "sha1_hash": "75fb1050517312ec299f484548bd152ae52dea17"
 }
