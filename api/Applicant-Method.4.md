@@ -6,6 +6,8 @@ and if you want only the details for one particular applicant, you would use
 ```
 https://backend.econjobmarket.org./api/applicants/38848
 ```
+where the number at the end of the url is an applicant id.
+
 As before, these urls must be used with a valid access token.
 
 This will produce for each applicant a json object that looks as follows"
@@ -31,7 +33,7 @@ This will produce for each applicant a json object that looks as follows"
     "degreeinst": "***** University",
     "degreebegyear": 2008,
     "degreeendyear": 2013,
-    "curpos": "tp",
+    "curpos": "Doctoral Student",
     "curinst": "University of *******",
     "ethnic": "",
     "ethnicity": "",
@@ -39,13 +41,16 @@ This will produce for each applicant a json object that looks as follows"
     "gender": "withheld",
     "is_contactok": 1,
     "ackdate": "2018-06-26",
-    "nationality": "",
+    "nationality": "Italy",
     "status": 0,
     "statusinactivedate": null,
     "last_revised_time": "2018-06-26 07:49:09",
     "secondary_fields": {
         "23": "Political Economy,"
     },
+    "secondary_fields": {
+        "1" :"Development; Growth"
+    }
     "conferences": {
         "16": "EEA Job Market Meeting",
         "11": "Canadian Economics Employment Exchange",
