@@ -1,20 +1,21 @@
 ## Displaying Ads
 
-You can redisplay econjobmarket ads on your own website if you want. There are three ways to do it. Each uses the public ad display.
+You can redisplay econjobmarket ads on your own website. The ad display is a public api so you can either re-display all the ads, or a subset of ads that are distinguished by different re-seller ids.
 
-It is possible to sell ad space on your website through econjobmarket. A recruiter setting up an ad at econjobmarket is given the option to pay to redisplay ads on specific websites for a fee.  If you arrange this, econjobmarket will provide an authenticated feed which includes only the ads that pay for your service.  This method is used by the econometric society to charge for ads that are displayed on their site (see [http://econometricsociety.org/econjobmarket](http://econometricsociety.org/econjobmarket)).
+When an ad is registered on econjobmarket, the recruiter can choose to have the ad displayed on a number of external websites.  Some of these websites charge for this service.  Each such website has a re-seller id.  For example, the id for the econometric society website is 3.  The list of ads that are to be re-displayed on their website can be retrieved using the endpoint [https://backend.econjobmarket.org/data/zz_public/json/Feature/3](https://backend.econjobmarket.org/data/zz_public/json/Feature/3). The ads end up on their website at [http://econometricsociety.org/econjobmarket](http://econometricsociety.org/econjobmarket).
 
-The recommended way to sell ads like this is to provide a side bar with highlighted ads. If you do this, you will probably want to use the first method to download the ads below, and customize your own website display.
+If you want do this, submit an econjobmarket support request at [Econjobmarket Support] (https://econjobmarket.org/contacts.php).
 
-If you wish to sell ad space on your website through econjobmarket, use the econjobmarket support request at [Econjobmarket Support] (https://econjobmarket.org/contacts.php).
+If you use this method, you don't have to charge, you can just offer the option to recruiters.
 
-## Your Own customized Display
+If you just want to display all ads, or want to provide a custom listing of ads, you can get them by using the endpoint
 
-The first is just to write your own display code, then download all the current ads using the rest api.  This requires no authentication.  Use the url
 ```
 https://backend.econjobmarket.org/data/zz_public/xml/Ads
 ```
 You can replace the string "xml" in the url above with "json" to get json encoded output.  You can also use the string "jsonp", which is explained below. 
+
+Whichever approach you take, it is up to you to provide custom display code that fits your own website.
 
 A basic ad is encoded as follows:
 ```
@@ -46,12 +47,9 @@ To display the organization gif, use the url
 ```
 https://backend.econjobmarket.org/data/zz_public/json/Blobs/128
 ```
-This will return a suitable encoded gif or png which can be set in an image field on your website.
-To determine the position type and category, you can use the url
-```
-https://backend.econjobmarket.org/data/zz_public/xml/PositionTypes
-``` 
-and check the corresponding json or xml object to determine the rank, etc.  The field can be determined by
+The number at the end of the url is the organization id `oid` displayed in the xml above. This will return a suitable encoded gif or png which can be set in an image field on your website.
+
+The property `categories` is generally a comma separated list of fields.  To look up the corresponding names of the fields use the endpoint
 ```
 https://backend.econjobmarket.org/data/zz_public/xml/Categories
 ```
