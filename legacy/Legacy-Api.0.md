@@ -1,8 +1,9 @@
 ## Legacy Api
 
 This page provides links to the documentation of the legacy api, which applies to the database prior to July 2018.  
-It still works with the new database. However if you are just establishing a connection, it is recommended 
-that you use the updated methods in the [new api](../api/Api-Documents.0.md).
+This api is no longer supported. Use the updated methods in the [new api](../api/Api-Documents.0.md).
+
+The only download method that currently works is `JSON`.  
 
 1. [Soap-Http](SOAP.1.md)
     * [Php Soap](Php-Soap.2.md)
