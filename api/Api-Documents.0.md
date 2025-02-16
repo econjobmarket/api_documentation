@@ -16,11 +16,11 @@ Features of the api include:
 4. Application tokens can be used to fetch information and letters.  
 
 - [Getting Started](/docs/api/Getting-Started.1.md)
-- [Using Oauth and access tokens](Authentication-and-Access-Tokens.2.md)
+- [Using Oauth and access tokens](/docs/api/Authentication-and-Access-Tokens.2.md)
 - Methods
-  1. [applications](Application-Method.3.md)
-  2. [applicants](Applicant-Method.4.md)
-  3. [Files](Files-Method.5.md)
-  4. [Letters](Recommendation-Letters.6.md)
-  6. [Document method](Document-Method.7.md)
-  5. [Interviews](Interviews.8.md)
+  1. [applications](/docs/api/Application-Method.3.md)
+  2. [applicants](/docs/api/Applicant-Method.4.md)
+  3. [Files](/docs/api/Files-Method.5.md)
+  4. [Letters](/docs/api/Recommendation-Letters.6.md)
+  6. [Document method](/docs/api/Document-Method.7.md)
+  5. [Interviews](/docs/api/Interviews.8.md)
