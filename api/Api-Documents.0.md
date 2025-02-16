@@ -15,7 +15,7 @@ Features of the api include:
 3. Only five methods, applicant, applications, files, letters, and interviews.
 4. Application tokens can be used to fetch information and letters.  
 
-- [Getting Started](Getting-Started.1.md)
+- [Getting Started](/api/Getting-Started.1.md)
 - [Using Oauth and access tokens](Authentication-and-Access-Tokens.2.md)
 - Methods
   1. [applications](Application-Method.3.md)
