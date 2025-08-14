@@ -1,3 +1,5 @@
+As of August, 2025, the login option has been disabled during an upgrade.  Should be available again in September.
+
 Choose the option on the front page of the website [https://backend.econjobmarket.org](https://backend.econjobmarket.org) that says `Login with Econjobmarket`.  Use your username (email) and password at econjobmarket (i.e., the one you use at [https://econjobmarket.org](https://econjobmarket.org) ), they will be checked at [econjobmarket.org](https://econjobmarket.org).  You must be a valid recruiter at econjobmarket to use this api.
 
 
