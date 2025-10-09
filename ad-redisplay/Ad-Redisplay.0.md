@@ -20,7 +20,7 @@ A basic ad is encoded as follows:
 ```
 {
   "adtitle":"Tenure-track Assistant Professor in Economics",
-  "adtext":"<p>Applications are invited from qualified individuals for a full-time, tenure-track Assistant Professor position with the Department of Economics in .... at the University of Saskatchewan.<\/em><\/p>",
+  "adtext":"<p>Applications are invited from qualified individuals .... at the University of Saskatchewan.<\/em><\/p>",
   "deadline_date":"2025-06-30",
   "department":"Economics",
   "name":"University of Saskatchewan",
