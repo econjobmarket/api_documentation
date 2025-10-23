@@ -16,13 +16,6 @@ The api will only respond to requests for data at specific ip addresses.  You ha
 
 Thie documentation applies to the api as of July, 2025.  
 
-Features of the api include:
-
-1. Real time data (no caching).
-2. Authentication by oauth.
-3. Only five methods, applicant, applications, files, letters, and interviews.
-4. Application tokens can be used to fetch information and letters.  
-
 - [Getting Started](/docs/api/Getting-Started.1.md)
 - [Using Oauth and access tokens](/docs/api/Authentication-and-Access-Tokens.2.md)
 - Methods
