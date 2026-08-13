@@ -19,23 +19,39 @@ It is up to you to provide custom display code that fits your own website.
 A basic ad is encoded as follows:
 ```
 {
-  "adtitle":"Tenure-track Assistant Professor in Economics",
-  "adtext":"<p>Applications are invited from qualified individuals .... at the University of Saskatchewan.<\/em><\/p>",
-  "deadline_date":"2025-06-30",
-  "department":"Economics",
-  "name":"University of Saskatchewan",
-  "latitude":52.13241891116994,
-  "longitude":-106.63777168007105,
-  "position_types":[
-    {"name":"Assistant Professor"}
-    ],
-  "categories":[
-    {"name":"Any field"}
-    ],
-  "url":"https:\/\/econjobmarket.org\/positions\/10940",
-  "logo":930,
-  "logo_url":"https:\/\/backend.econjobmarket.org\/data\/zz_public\/json\/Logo\/930"
+"adtitle":"Open Rank Tenure Track or Tenure Eligible Professor | Department of Finance",
+"adtext":"<p>The Department of Finance .....</p>",
+"startdate":"2025-09-13",
+"enddate":"2026-09-07",
+"deadline_date":"2026-08-03",
+"department":"Finance, Business School",
+"name":"University of Miami",
+"latitude":25.720054485476062,
+"longitude":-80.27660340070726,
+"locations":[
+	{"addr1":"5250 University Drive",
+	"addr2":null,
+	"city":"Coral Gables",
+	"state":"Florida",
+	"zip":"33146",
+	"country_code":"US",
+	"latitude":25.720054485476,
+	"longitude":-80.276603400707
+	}
+	],
+"position_types":[
+	{"name":"Assistant Professor"},
+	{"name":"Associate Professor"},
+	{"name":"Full Professor"}
+	],
+"categories":[
+	{"name":"Finance"}
+	],
+"url":"https://econjobmarket.org/positions/11776",
+"logo":5806,
+"logo_url":"https://b\ackend.econjobmarket.org/data/zz_public/json/Logo/5806"
 }
+
 ```
 
 You can load the json associated with all open ads using the url
