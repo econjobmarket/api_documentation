@@ -1,4 +1,4 @@
-## Accessinng the EJM Ad Feed
+## Accessing the EJM Ad Feed
 
 You are welcome to access the feed of Econ Job Market Inc. (EJM) job advertisements here for personal use and for academic research projects.  EJM also allows you to redisplay EJM ads on your own website, subject to notifying EJM and receiving EJM’s approval.  You can notify EJM of your intent by submitting a support request via the EJM website.  We normally approve any legitimate advertisement redisplay on the condition that the redisplay site clearly and prominently declares that (1) these advertisements are being redisplayed from Econ Job Market Inc. at econobmarket.org, (2) recruiters wishing to post job advertisements should do so at econobmarket.org, and (3) job-market candidates should go to EJM to submit applications.  Any usage of this advertisement-feed API must conform to EJM’s Terms of Use Agreement, Privacy Policy, and Research Data Usage Policy. 
 
