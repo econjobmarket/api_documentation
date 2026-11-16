@@ -1,10 +1,9 @@
 Authentication is done by json web tokens.  These are delivered to users with the client key and secret.  They are long strings, which 
-must be supplied with each request for data.  As mentioned previously, when you look at your api information after setup, any available web token will be listed there, along with it's expiry date.  You can copy and paste that token into your browser bar for testing the api.  If there is no access token shown, of if the displayed access token is expired, just click the refresh button to get a new one.
+must be supplied with each request for data.  As mentioned previously, when you look at your api information after setup, any available web token will be listed there, along with the time left before
+it expires. 
 
-## Testing with access tokens using your web browser
 
-
-Here is what an access token looks like:
+Here is what an access token looks like (it isn't valid so it won't work):
 
 ---
 ```
@@ -15,18 +14,20 @@ eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpZCI6IjJkOWU2NmI1NzdlNGNiZGU1ZWRjMTZiZTZ
 This string appears to have line breaks in it because the display reformats it, but when you submit it, it should be a single long string without spaces of line breaks.
 
 
-To test your api you would use an url that would look like this
+The api reads the access token by looking at the header of the page request. So a simple url with the 
+access token as a query parameter will not work.  You can try the developer tools in your browser and
+use json to submit a request with custom headers.  This is unlikely to work unless your browser is open
+at one of the ip addresses you have allowed access.
 
-```
-https://backend.econjobmarket.org/api/applicants/?access_token=eyJ0eXAiOiJKV1Q........
-```
-
-You would paste this url, including the entire access token (not just the short version above, the entire long string) into your browser bar.  All data is returned as json, so you might find it helpful to install a json pretty print extension so you can see the structure of the data a little more clearly.
-At this point, you are ready to start start testing the various methods with your web browser.
+The only way to test is to use the methods described below.
 
 ## Accessing tokens from your own server.
 
-If you want to test the api on your own server, you need to start by adding the ip address of your server to your information on your api information page (the page where you copied the access token).  If you include the full url of your server as well, the system will verify it first, which will help make sure you don't make mistakes.  At that point you can fetch an access token using a script on your server.
+There are two ways to get an access token that you can use on your own computer.  Both methods require authentication. First login at the 
+[api server](https://backend.econjobmarket.org/user).  On your [setup page](https://backend.econjobmarket.org/setup_home), item 7 provides an access token. If you don't see one, click the `Refresh Token` button.  You can copy the whole token by clicking the icon on the 
+bottom right hand side of the box that it is in.
+
+Alternatively, if you'd like to do it programmatically, the setup page also provides your client key and secret. 
 
 Here is a curl request that will produce an access token:
 ```
@@ -52,7 +53,7 @@ If you do something wrong, you should get a json encoded error message instead o
 
 ## Fetching data with the access token
 
-The simplest way to access the data is to include the access token as part of the authorization header as follows:
+The way to access the data is to include the access token as part of the authorization header in your pageas follows:
 ```
 curl -H 'Accept: application/json' -H "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpZCI6IjAzNzEyYWY2ZTg5ODBkZTc3NjJiYmU1NWNmYjk5YmQzYzJmMjg2OGQiLCJqdGkiOiIwMzcxMmFmNmU4OTgwZGU3NzYyYmJlNTVjZmI5OWJkM2MyZjI4NjhkIiwiaXNzIjoiIiwiYXVkIjoienpfNjdAYmFja2VuZCIsInN1YiI6Inp6XzY3QGJhY2tlbmQiLCJleHAiOjE1NDc5MzI5MDYsImlhdCI6MTU0NzkyOTMwNiwidG9rZW5fdHlwZSI6ImJlYXJlciIsInNjb3BlIjoiYmFzaWMifQ.Jn2romlRLlh9RtBKSu__adVhkEDblQRAwJ-NKxFkLdCppCzfx3KjeFPaTfIVFKpTmF11bhK19edPqtRxnnPtch8UFsaqlWYSGUmuy5LoIb3qkWRUl9C8asf2OnBvbrOB9xD2DmlbrjaAJsf1gMbhHW4coPoaK1HCY1IObsFqa8czr9z_S-HzWSvVpG6SNUDA1-8HIsnAKQGGY-gXiT08D5WyKw2_W4uSdX0JBxBUu3H8LD-9bnyxFjJZpysubtblWkmDLVzNtQh5XtNgObCck0eOaf34NOlsnYpryy6R9utYUkhNKH2iGxcj8MerTQFqp211IGsTEh610XmcTmFKEw" https://backend.econjobmarket.org/api/applicants
 ```
@@ -60,22 +61,58 @@ If you provide a valid access token, this request will return all your applicant
 
 You can also include your token as part of the data included in a post request, similar to the following implementation in php:
 ```
-<php>
-  $curl_session = curl_init();
-    curl_setopt($curl_session, CURLOPT_URL, 'https://backend.econjobmarket.org/api/applicants');
-    curl_setopt($curl_session, CURLOPT_HEADER, false);
-    curl_setopt($curl_session, CURLOPT_RETURNTRANSFER, true);
-    $post_array = array (
-			 'access_token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpZCI6IjAzNzEyYWY2ZTg5ODBkZTc3NjJiYmU1NWNmYjk5YmQzYzJmMjg2OGQiLCJqdGkiOiIwMzcxMmFmNmU4OTgwZGU3NzYyYmJlNTVjZmI5OWJkM2MyZjI4NjhkIiwiaXNzIjoiIiwiYXVkIjoienpfNjdAYmFja2VuZCIsInN1YiI6Inp6XzY3QGJhY2tlbmQiLCJleHAiOjE1NDc5MzI5MDYsImlhdCI6MTU0NzkyOTMwNiwidG9rZW5fdHlwZSI6ImJlYXJlciIsInNjb3BlIjoiYmFzaWMifQ.Jn2romlRLlh9RtBKSu__adVhkEDblQRAwJ-NKxFkLdCppCzfx3KjeFPaTfIVFKpTmF11bhK19edPqtRxnnPtch8UFsaqlWYSGUmuy5LoIb3qkWRUl9C8asf2OnBvbrOB9xD2DmlbrjaAJsf1gMbhHW4coPoaK1HCY1IObsFqa8czr9z_S-HzWSvVpG6SNUDA1-8HIsnAKQGGY-gXiT08D5WyKw2_W4uSdX0JBxBUu3H8LD-9bnyxFjJZpysubtblWkmDLVzNtQh5XtNgObCck0eOaf34NOlsnYpryy6R9utYUkhNKH2iGxcj8MerTQFqp211IGsTEh610XmcTmFKEw',
-			 );
-    curl_setopt($curl_session, CURLOPT_POST, true);
-    curl_setopt ($curl_session, CURLOPT_POSTFIELDS, $post_array);
-    if($result = curl_exec($curl_session)) {
-      curl_close($curl_session);
-      return json_decode($result);
+<?php
+$url = 'https://backend.econjobmarket.org/api/applicants';
+$accessToken = 'paste your access token here';
+$ch = curl_init();
+curl_setopt_array($ch, [
+    CURLOPT_RETURNTRANSFER => true, // Return the response as a string
+    CURLOPT_HTTPHEADER => [
+        'Authorization: Bearer ' . $accessToken,
+        'Accept: application/json',
+        'User-Agent: MyPHPApp/1.0' // Many APIs reject requests without a User-Agent
+    ],
+]);
+$response = curl_exec($ch);
+// Check for cURL errors
+if (curl_errno($ch)) {
+    echo 'cURL Error: ' . curl_error($ch);
 } else {
-handle the error
+    $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+    $data = json_decode($response, true); // Decode JSON into an associative array
+    print_r($data);
 }
-</php>
+curl_close($ch);
+?>
+
+```
+Finally, here is a python version:
+```
+import os
+import requests
+# Retrieve the access token from an environment variable                                                                                             
+access_token = "paste your access token here"
+url = "https://backend.econjobmarket.org/api/applicants"
+# Set up the Authorization header                                                                                                                    
+headers = {
+    "Authorization": f"Bearer {access_token}",
+    "Accept": "application/json"
+}
+try:
+    # Send the GET request with a timeout                                                                                                            
+    response = requests.get(url, headers=headers, timeout=10)
+
+    # Raise an exception for HTTP error codes (4xx or 5xx)                                                                                           
+    response.raise_for_status()
+
+    # Parse and print the JSON response                                                                                                              
+    data = response.json()
+    print(data)
+
+except requests.exceptions.HTTPError as http_err:
+    print(f"HTTP error occurred: {http_err}")
+except requests.exceptions.RequestException as err:
+    print(f"Request failed: {err}")
+
 ```
 At this point you can continue to use the various [methods](methods).
